@@ -1,0 +1,33 @@
+.head h1{
+    margin: 50px;
+    color: #169293 ;
+    text-align: center;
+}
+
+table{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    height: 200px;
+    width: 80%;
+    transform: translate(-50%,-50%);
+    background:#c5eded;
+   text-align: center;
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    box-shadow: 0 5px 12px rgba(32,32,32,0.3);
+    
+}
+th{
+    background:#169293;
+    color: aliceblue
+     
+}
+th, td{
+    padding: 5px 15px;
+}

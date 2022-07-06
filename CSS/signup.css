@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../IMAGES/7.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    color:white;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.box input[type="text"], .box input[type="password"],.box input[type="email"],.box input[type="tel"]{
+    
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 15px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+    
+}
+.box input[type="text"]:focus, .box input[type="password"]:focus,.box input[type="email"]:focus,.box input[type="tel"]:focus{
+     width: 280px;
+    border-color: aquamarine;
+}
+.box input[type="submit"]{
+     background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #FFC300;
+    padding: 15px 5px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+    
+   
+}
+.box input[type="submit"]:hover{
+    background: #FFC300;
+    color: black;
+}
+
+.login {
+     width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+   
+    color: white;
+     background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid  aquamarine;
+    padding: 15px 5px;
+    width: 100px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.login:hover{
+    background: aquamarine;
+    color: black;
+}
+
+.home {
+     width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+   
+    color: white;
+     background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid  aquamarine;
+    padding: 15px 5px;
+    width: 100px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.home:hover{
+    background: aquamarine;
+    color: black;
+}
